@@ -21,17 +21,17 @@
     <header class="bg-white shadow-md p-4 flex justify-between items-center">
         <div class="flex items-center gap-4">
             <img class="w-20 h-20" src="./assets/logo.png" alt="">
-            <h1 class="text-[#006747] font-bold text-xl ">Emergency<br>Service</h1>
+            <h1 class="text-[#006747] font-bold text-xl">Emergency<br>Service</h1>
         </div>
 
         <form class="flex items-center gap-3">
-            <span id="heart-count" class="inline-flex items-center gap-1 text-red-500 font-bold bg-[#dafce1] rounded-full px-4 py-1"><img class="h-7 w-7" src="./assets/heart.png" alt=""><span id="heart-number">0</span></span>
-            <span id="coin-count" class="inline-flex items-center gap-1 text-yellow-500 font-bold bg-[#dafce1] rounded-full px-4 py-1"><img class="h-7 w-7" src="./assets/coin.png" alt=""><span id="coin-number">100</span></span>
-            <button id="copy-top" class="btn btn-info text-white bg-[#00A63E] rounded-3xl">Copy</button>
+            <span class="inline-flex items-center gap-1 text-red-500 font-bold bg-[#dafce1] rounded-full px-7 py-1"><img class="h-7 w-7" src="./assets/heart.png" alt=""><span id="heart-number">0</span></span>
+            <span class="inline-flex items-center gap-1 text-yellow-500 font-bold bg-[#dafce1] rounded-full px-4 py-1"><img class="h-7 w-7" src="./assets/coin.png" alt=""><span id="coin-number">100</span></span>
+            <button class="btn btn-info text-white bg-[#00A63E] rounded-3xl"><span id="copy-number">0</span>Copy</button>
         </form>
     </header>
     <!-- banner -->
-    <section class="bg-gradient-to-r from-green-800 to-green-600 text-center text-white py-6">
+    <section class="bg-gradient-to-r from-green-950 to-green-800 text-center text-white py-6">
         <img class="mx-auto w-16 mb-2" src="./assets/logo.png" alt="">
         <h1 class="text-2xl font-bold">জরুরি সেবা ডিরেক্টরি</h1>
         <p class="text-sm mt-2">Government Emergency Services at Your Fingertip – A Project by Government of the
@@ -52,12 +52,14 @@
                 <div>
                     <img src="./assets/emergency.png" alt="" class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">জাতীয় জরুরি সেবা</h2>
                 <p class="text-gray-500">National Emergency</p>
                 <p id="num-999" class="text-2xl font-bold my-2">999</p>
+                <p class="w-22 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">সার্বজনীন</p>
+                <br>
                 <div class="flex gap-2">
-                    <button class="btn btn-outline btn-sm copy-btn" data-number="999"><i
-                            class="fa-solid fa-copy"></i>Copy</button>
+                    <button class="btn btn-outline btn-sm copy-btn" data-number="999"><i class="fa-solid fa-copy"></i>Copy</button>
                     <button class="btn rounded-lg bg-green-600 text-white btn-sm call-btn" data-name="জাতীয় জরুরি সেবা"
                         data-number="999"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
@@ -69,9 +71,12 @@
                 <div>
                     <img src="./assets/police.png" alt="" class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">পুলিশ</h2>
                 <p class="text-gray-500">Police</p>
                 <p id="num-police" class="text-2xl font-bold my-2">999</p>
+                <p class="w-20 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">পুলিশ</p>
+                <br>
                 <div class="flex gap-2">
                     <button class="btn btn-outline btn-sm copy-btn" data-number="999"><i
                             class="fa-solid fa-copy"></i>Copy</button>
@@ -87,9 +92,12 @@
                     <img src="./assets/fire-service.png" alt=""
                         class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">ফায়ার সার্ভিস</h2>
                 <p class="text-gray-500">Fire Service</p>
                 <p id="num-fire" class="text-2xl font-bold my-2">999</p>
+                <p class="w-20 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">ফায়ার</p>
+                <br>
                 <div class="flex gap-2">
                     <button class="btn btn-outline btn-sm copy-btn" data-number="999"><i
                             class="fa-solid fa-copy"></i>Copy</button>
@@ -104,9 +112,12 @@
                 <div>
                     <img src="./assets/ambulance.png" alt="" class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">অ্যাম্বুলেন্স</h2>
                 <p class="text-gray-500">Ambulance</p>
                 <p id="num-ambulance" class="text-2xl font-bold my-2">1994-999999</p>
+                <p class="w-20 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">স্বাস্থ্য</p>
+                <br>
                 <div class="flex gap-2">
                     <button class="btn btn-outline btn-sm copy-btn" data-number="1994-999999"><i
                             class="fa-solid fa-copy"></i>Copy</button>
@@ -121,9 +132,12 @@
                 <div>
                     <img src="./assets/emergency.png" alt="" class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">নারী ও শিশু সহায়তা</h2>
                 <p class="text-gray-500">Women & Child Helpline</p>
                 <p id="num-women" class="text-2xl font-bold my-2">109</p>
+                <p class="w-22 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">সহায়তা</p>
+                <br>
                 <div class="flex gap-2">
                     <button class="btn btn-outline btn-sm copy-btn" data-number="109"><i
                             class="fa-solid fa-copy"></i>Copy</button>
@@ -138,9 +152,12 @@
                 <div>
                     <img src="./assets/emergency.png" alt="" class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">দুদক</h2>
                 <p class="text-gray-500">Anti-Corruption</p>
                 <p id="num-anti-corruption" class="text-2xl font-bold my-2">106</p>
+                <p class="w-22 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">সরকারি</p>
+                <br>
                 <div class="flex gap-2">
                     <button class="btn btn-outline btn-sm copy-btn" data-number="106"><i
                             class="fa-solid fa-copy"></i>Copy</button>
@@ -155,9 +172,12 @@
                 <div>
                     <img src="./assets/emergency.png" alt="" class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">বিদ্যুৎ বিভ্রাট</h2>
                 <p class="text-gray-500">Electricity Outage</p>
                 <p id="num-electricity" class="text-2xl font-bold my-2">16216</p>
+                <p class="w-20 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">বিদ্যুৎ</p>
+                <br>
                 <div class="flex gap-2">
                     <button class="btn btn-outline btn-sm copy-btn" data-number="16216"><i
                             class="fa-solid fa-copy"></i>Copy</button>
@@ -172,9 +192,12 @@
                 <div>
                     <img src="./assets/brac.png" alt="" class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">ব্র্যাক</h2>
                 <p class="text-gray-500">Brac</p>
                 <p id="num-brac" class="text-2xl font-bold my-2">16445</p>
+                <p class="w-20 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">এনজিও</p>
+                <br>
                 <div class="flex gap-2">
                     <button class="btn btn-outline btn-sm copy-btn" data-number="16445"><i
                             class="fa-solid fa-copy"></i>Copy</button>
@@ -190,14 +213,17 @@
                     <img src="./assets/Bangladesh-Railway.png" alt=""
                         class="h-15 w-15 card bg-red-100 shadow-lg p-4 relative">
                 </div>
+                <br>
                 <h2 class="font-bold text-lg">বাংলাদেশ রেলওয়ে</h2>
                 <p class="text-gray-500">Bangladesh Railway</p>
                 <p id="num-railway" class="text-2xl font-bold my-2">163</p>
+                <p class="w-20 bg-[#e2e1e1] text-[#898888] rounded-3xl p-3">পরিবহন</p>
+                <br>
                 <div class="flex gap-2">
                     <button class="btn btn-outline btn-sm copy-btn" data-number="163"><i
                             class="fa-solid fa-copy"></i>Copy</button>
                     <button class="btn rounded-lg bg-green-600 text-white btn-sm call-btn" data-name="বাংলাদেশ রেলওয়ে"
-                        data-number="163"><i class="fa-solid fa-phone"></i> Call</button>
+                        data-number="163"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
